@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 38%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+}
+h2 span{
+    color:rgb(238, 144, 164);
+    font-size: 45px;
+    border-bottom: 4px dotted greenyellow;
+    margin-bottom: 5px;
+}
+p{
+    font-size: 18px;
+    font-family: Poppins;
+    margin-bottom: 20px;
+    margin-top: 17px;
+    color: dimgray;
+}
+.button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, green);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.button:hover{
+    background: linear-gradient(45deg, red, silver );
+    color: lime;
+}
+.half-width img{
+   width: 100%;
+   
+}
+.my-dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+}
+
+.experience-area{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#full-stack{
+    margin-top: 40PX;
+    padding-left: 100x;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, green, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px gray;
+    height: 100%;
+    padding-right: 20px;    
+}
+#Beginer-web{
+   margin-top: 40PX;
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg, blue, cyan);
+   border-image-slice: 1;
+   box-shadow: 5px 7px 40px gray;
+   height: 100%;
+   padding-right: 20px;
+    
+}
+.experience-area h2{
+    margin-top: 30px;
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    margin: 10px;
+    color: grey;
+    
+
+}
+h6{
+ font-size: 15px;
+}
